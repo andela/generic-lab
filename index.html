@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>AndeLabs, Generic Lab.</title>
+
+  <link rel="stylesheet" type="text/css" href="http://rawgit.com/andela/andela-cdn/master/labs/lib/jasmine/jasmine.css">
+  <script type="text/javascript">
+      /*
+      * Change the LabSlug and CategoryId below to the pertinent values, very important
+      */
+      window.LabSlug = 'generic-lab';
+      window.CategoryId = 'basic-labs';
+  </script>
+  <script type="text/javascript" src="http://rawgit.com/andela/andela-cdn/master/labs/lib/angular/angular.js"></script>
+  <script type="text/javascript" src="http://rawgit.com/andela/andela-cdn/master/labs/lib/jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="http://rawgit.com/andela/andela-cdn/master/labs/lib/jasmine/jasmine-html.js"></script>
+  <script type="text/javascript" src="http://rawgit.com/andela/andela-cdn/master/labs/lib/jasmine/boot.js"></script>
+
+  <script type="text/javascript" src="./js/generic.js"></script>
+  <script type="text/javascript" src="./js/generic-tests.js"></script>
+
+  <script type="text/javascript" src="http://rawgit.com/andela/andela-cdn/master/labs/application.js">
+  </script>
+</head>
+<body ng-app="AndeLabs">
+<div ng-controller="LabCtrl">
+  <!--  Results injected here? -->
+</div>
+</body>
+</html>
