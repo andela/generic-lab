@@ -1,6 +1,11 @@
 #Generic Lab
 This is the boiler plate from which all other labs should evolve from.
 
++ Edit the `LabSlug` and `CategoryId` javascript variables to their pertient values
++ Rename the javascript files _generic.js_ and _generic-tests.js_ to their appropriate file names. Repeat this in their script tag references too in _index.html_
++ The page title in _index.html_ should also be renamed to suit purpose.
+
++ This README should be modified as well, with this section describing the lab's tests and or function required to pass it, as eloquent as possible.
 
 ## How to Run this Lab
 

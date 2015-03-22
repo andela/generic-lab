@@ -20,7 +20,5 @@
     it("The toString fucntion in the Generic instance should be splittable to an Array", function() {
       expect((new Generic()).toString().split(/\s+/) instanceof Array).toBeTruthy();
     });
-
-
   });
 })();
