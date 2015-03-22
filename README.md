@@ -2,10 +2,14 @@
 This is the boiler plate from which all other labs should evolve from.
 
 + Edit the `LabSlug` and `CategoryId` javascript variables to their pertient values
-+ Rename the javascript files _generic.js_ and _generic-tests.js_ to their appropriate file names. Repeat this in their script tag references too in _index.html_
+
++ The test specs should be written in the _generic-tests.js_ script. The _generic.js_ file is the script that should contain the solution for the test and should be left *blank*, or as the case may be, a boiler plate for the solution, but under no circumstances should the solution for the test be present in any commits to the repository.
+
++ Rename the javascript files _generic.js_ and _generic-tests.js_ to their appropriate file names. Repeat this in their script tag references in _index.html_
 + The page title in _index.html_ should also be renamed to suit purpose.
 
 + This README should be modified as well, with this section describing the lab's tests and or function required to pass it, as eloquent as possible.
+
 
 ## How to Run this Lab
 
