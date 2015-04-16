@@ -17,7 +17,7 @@
       expect(new Generic() instanceof Generic).toBeTruthy();
     });
 
-    it("The toString fucntion in the Generic instance should be splittable to an Array", function() {
+    it("The toString function in the Generic instance should be splittable to an Array", function() {
       expect((new Generic()).toString().split(/\s+/) instanceof Array).toBeTruthy();
     });
   });
